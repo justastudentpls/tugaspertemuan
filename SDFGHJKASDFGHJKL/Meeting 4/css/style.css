@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background: #444;
+    color: white;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 1em 0;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    background: #f4f4f4;
+    padding: 1em;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 0.5em 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 0.5em;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+aside ul li a:hover {
+    background: #ccc;
+}
+
+main {
+    float: left;
+    width: 60%;
+    padding: 1em;
+    background: #fff;
+}
+
+footer {
+    clear: both;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form input[type="submit"] {
+    width: auto;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #555;
+}
