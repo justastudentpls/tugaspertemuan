@@ -16,15 +16,20 @@
 
         #border {
             background-color: blanchedalmond;
-            padding: 25px 35px;
+            padding: 10px 35px;
             inline-size: 90%;
-            border-inline-end-width: 10px;
+            border-inline-start-width: 10px;
             border-bottom: double 4px;
-            border-inline-end-style: dotted;
+            border-inline-start-style: dotted;
             text-decoration: underline;
-            text-align: center;
+            text-align: left;
         }
 
+        #sep {
+            column-count: 2;
+            column-gap: 0px;
+            column-rule-style: none;
+        }
     </style>
 </head>
 <body>
@@ -39,26 +44,26 @@
                 <li><a href="myfamily.html">My Family</a></li>
             </ul>     
         </nav>
-
         <header>
-            <h1>Contact Me</h1>
-        </header>
-        
-        <section class="profile">
             <div>
-                <div id="border">
-                    <img src="img/profile.jpg" align="left" alt="Profile Picture" class="profile-pic">
+                <h1>My Education</h1>
+                <p class="subtitle">Where I studied throughout my years</p>
 
-                    <h1>My Socials</h1>
-
-                    <p class="description" style="font-size: 18px;">
-                        Instagram: dsjhnjdnwnjkq<br>
-                        Twitter: LIHDUIHSDUDHSHDSIH<br>
-                        Tumblr: jhduejaoia
-                    </p>
+                <div id = border>
+                    <div id="sep">
+                        <p>Primary School Education: SD Sutomo 1</p>
+                        <img src="img/school1.jpg" style="width:200px;height:100px;">
+                        <p>Secondary School Education: SMP Sutomo 1</p>
+                        <img src="img/school2.jpg" style="width:200px;height:100px;"><br>
+                        <p><br>High School Education: SMA Sutomo 1</p>
+                        <img src="img/school2.jpg" style="width:200px;height:100px;">
+                        <p>College Education: IT&B Campus</p>
+                        <img src="img/school3.jpeg" style="width:200px;height:100px;"><br>
+                        <p></p>
+                    </div>
                 </div>
             </div>
-        </section>
+        </header>
 
         <footer>
             <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
